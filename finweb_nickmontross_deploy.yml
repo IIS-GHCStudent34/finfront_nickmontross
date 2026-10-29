@@ -5,17 +5,17 @@ pool:
 
 variables:
   - name: projectName
-    value: 'azure-sre-2026-oct28-bushey-student07'            # <-- Update this
+    value: 'azure-sre-2026-oct28-bushey-student07'
   - name: buildPipelineName
-    value: 'finbweb_nickmontross_build'          # <-- Update this
+    value: 'finbweb_nickmontross_build'
   - name: artifactName
     value: 'frontend'        
   - name: targetFile
-    value: 'app.py'                             # Optional: Which file inside artifact to display
+    value: 'app.py'
   - name: resourceGroup
-    value: 'rg-student07'        # <-- Update this
+    value: 'rg-student07'
   - name: webAppName
-    value: 'finweb-nickmontross'                # <-- Update this Azure Web App target
+    value: 'finweb-nickmontross'
 
 steps:
 - script: |
